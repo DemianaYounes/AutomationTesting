@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegresstionTest" parallel="tests">
+    <test name="RegressionOnEdge">
+        <parameter name="Browser" value="Edge"></parameter>
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.Test2">
+            </class>
+        </classes>
+    </test>
+
+    <test name="RegressionOnChrome">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.Test2">
+            </class>
+        </classes>
+    </test>
+</suite>
