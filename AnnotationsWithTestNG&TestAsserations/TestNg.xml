@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AnnotationFirstDemoSuite">
+    <test name="FirstDemo">
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNGDemo2"></class>
+        </classes>
+    </test>
+</suite>

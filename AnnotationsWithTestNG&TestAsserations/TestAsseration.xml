@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AsserationSuite">
+    <test name="Test Asseration">
+        <classes>
+            <class name="AsserationDemo"></class>
+        </classes>
+    </test>
+</suite>
