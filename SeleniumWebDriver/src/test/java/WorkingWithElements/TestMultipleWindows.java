@@ -42,6 +42,6 @@ public class TestMultipleWindows {
     @AfterTest
     public void quit()
     {
-        //driver.quit();
+        driver.quit();
     }
 }

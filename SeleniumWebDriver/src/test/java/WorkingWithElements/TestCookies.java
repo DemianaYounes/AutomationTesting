@@ -25,6 +25,6 @@ public class TestCookies {
     @AfterTest
     public void quit()
     {
-        //driver.quit();
+        driver.quit();
     }
 }
